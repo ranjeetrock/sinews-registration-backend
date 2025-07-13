@@ -36,6 +36,7 @@ app.post("/register", async (req, res) => {
 app.get("/", (req, res) => {
   res.send("Registration API is running.");
 });
+// Force commit to trigger fresh deploy
 
 const PORT = process.env.PORT || 5000;
 
